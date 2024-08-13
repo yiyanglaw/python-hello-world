@@ -64,4 +64,5 @@ def run(server_class=HTTPServer, handler_class=handler, port=8080):
     httpd.serve_forever()
 
 if __name__ == "__main__":
+    print(1)
     run()
