@@ -8,9 +8,6 @@ import requests
 # Initialize Flask app
 app = Flask(__name__)
 
-gs://pdata1.appspot.com
-
-
 # Firebase Storage URLs
 MODEL_URL         = 'https://firebasestorage.googleapis.com/v0/b/pdata1.appspot.com/o/advanced_action_recognition_model.h5?alt=media'
 LABEL_MAPPING_URL = 'https://firebasestorage.googleapis.com/v0/b/pdata1.appspot.com/o/label_mapping.npy?alt=media'
