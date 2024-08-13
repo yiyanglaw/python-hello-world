@@ -6,7 +6,7 @@ from io import BytesIO
 from PIL import Image
 import base64
 
-# Load the model and label mapping
+# Load the model and label mapping....
 model = tf.keras.models.load_model('./api/advanced_action_recognition_model.h5')
 label_mapping = np.load('./api/label_mapping.npy', allow_pickle=True).item()
 label_mapping = {v: k for k, v in label_mapping.items()}
