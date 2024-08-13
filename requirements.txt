@@ -1,5 +1,7 @@
-tensorflow==2.17
+tensorflow>=2.17
 numpy
 pillow
 Flask>=2.0.1
 opencv-python
+requests==2.31.0
+
